@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.menu{
+    /* border:1px dashed #7B61FF; */
+    width:120px;
+    border-radius:5px;
+    text-align: right;
+    margin:5em auto;
+    padding:10px 10px;  
+    background-image: repeating-linear-gradient(9deg, #7B61FF, #7B61FF 6px, transparent 6px, transparent 12px, #7B61FF 12px), repeating-linear-gradient(99deg, #7B61FF, #7B61FF 6px, transparent 6px, transparent 12px, #7B61FF 12px), repeating-linear-gradient(189deg, #7B61FF, #7B61FF 6px, transparent 6px, transparent 12px, #7B61FF 12px), repeating-linear-gradient(279deg, #7B61FF, #7B61FF 6px, transparent 6px, transparent 12px, #7B61FF 12px);
+    background-size: 1px 100%, 100% 1px, 1px 100% , 100% 1px;
+    background-position: 0 0, 0 0, 100% 0, 0 100%;
+    background-repeat: no-repeat;
+}
+.menu__title{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #888888;
+}
